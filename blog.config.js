@@ -2,8 +2,8 @@
 const BLOG = {
 	AUTHOR: 'sdttttt', // 作者
 	BIO: '没醒', // 作者简介
-	LINK: 'sdttttt.github.io', // 网站地址
-	KEYWORDS: 'Notion, 博客', // 网站关键词 英文逗号隔开
+	LINK: 'http://sdttttt.github.io', // 网站地址
+	KEYWORDS: 'Notion,日常,博客', // 网站关键词 英文逗号隔开
 	NOTION_PAGE_ID:
 		process.env.NOTION_PAGE_ID || '412920e796e9421db3c9a30d0fe2d244', // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
 	NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
@@ -56,7 +56,7 @@ const BLOG = {
 	CONTACT_WEIBO: '',
 	CONTACT_TWITTER: '',
 	CONTACT_GITHUB: 'https://github.com/sdttttt',
-	CONTACT_TELEGRAM: '',
+	CONTACT_TELEGRAM: 'https://t.me/kindcation',
 
 	// 鼠标点击烟花特效
 	FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // 鼠标点击烟花特效
